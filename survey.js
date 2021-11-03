@@ -20,7 +20,7 @@ rl.question('What\'s your name? Nicknames are also acceptable :)   ', (answer1) 
   // console.log(`Thank you for your valuable feedback: ${answer1}`);
 
   rl.question('What\'s an activity you like doing?    ', (answer2) => {
-    profile += `'s favourite acitivity to do is ${answer2}. `;
+    profile += `'s favourite activity to do is ${answer2}. `;
     console.log(profile);
 
     rl.question('What do you listen to while doing that?    ', (answer3) => {
